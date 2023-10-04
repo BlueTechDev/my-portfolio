@@ -4,6 +4,7 @@ import './Css/header.css'; // Correct import path
 
 function Header() {
   return (
+    <div className='header'>
     <header className='page-header'>
       <nav>
         <h1>Jonah Kroll</h1>
@@ -16,6 +17,7 @@ function Header() {
         </ul>
       </nav>
     </header>
+    </div>
   );
 }
 
