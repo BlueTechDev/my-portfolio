@@ -1,0 +1,40 @@
+/* src/components/Footer.css */
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style links on hover */
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
