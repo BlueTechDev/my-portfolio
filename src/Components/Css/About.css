@@ -43,8 +43,9 @@
 }
 
 .paragraph {
-  font-size: 16px; /* Reduce font size for paragraphs on mobile */
+  font-size: 16px;
   color: #555;
+  margin: 10px 0; /* Set top and bottom margin to 10px and no margin on the left and right */
   line-height: 1.5;
 }
 
