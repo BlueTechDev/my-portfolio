@@ -3,6 +3,7 @@ import "./Css/education.css"; // Import the CSS file for styling
 
 function Education() {
   return (
+    <div className="education">
     <section className="education">
       <div className="container">
         <h2 className="section-title">Education</h2>
@@ -37,6 +38,7 @@ function Education() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

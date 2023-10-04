@@ -1,14 +1,16 @@
 import React from "react";
-import "./Css/About.css"; // Import the CSS file for styling
+import "./Css/about.css"; // Import the CSS file for styling
+import profileImage from "./images/profile.jpg";
 
 function About() {
   return (
+    <div className="about">
     <section className="about">
       <div className="container">
         <div className="about-content">
           <div className="profile-image-container">
             <img
-              src="/profile.jpg" // Replace with the correct path to your image
+              src={profileImage} // Replace with the correct path to your image
               alt="Jonah Kroll"
               className="profile-image"
             />
@@ -31,6 +33,7 @@ function About() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

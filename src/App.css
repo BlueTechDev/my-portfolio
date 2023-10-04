@@ -1,46 +1,78 @@
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Set a consistent font family and text color */
-  body {
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
-  
-  /* Define default styles for headings */
-  h1, h2, h3 {
-    font-weight: bold;
-  }
-  
-  /* Set a maximum width and center content */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Add spacing to sections */
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  /* Create a button style */
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF; /* Primary color */
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #0056b3; /* Darker color on hover */
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a consistent font family and text color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f7f7; /* Light background color */
+}
+
+/* Define default styles for headings */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+/* Set a maximum width and center content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Add spacing to sections */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Create a button style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Primary color */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Additional global styles can be added here */
+
+/* Define a common color scheme */
+.primary-color {
+  color: #007BFF; /* Primary text color */
+}
+
+.secondary-color {
+  color: #555; /* Secondary text color */
+}
+
+.background-color {
+  background-color: #f7f7f7; /* Background color */
+}
+
+/* Add more common styles and color classes as needed */
+
+/* Smooth fade-in animation for sections */
+.section-enter,
+.section-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section-enter-active,
+.section-exit {
+  opacity: 0;
+  transform: translateY(20px);
+}
