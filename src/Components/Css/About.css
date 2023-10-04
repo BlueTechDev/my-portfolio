@@ -2,27 +2,23 @@
 
 .about {
   background-color: #f7f7f7;
-  padding: 40px 0;
-  margin-top: 60px; /* Add top margin to create space between navbar and section */
+  padding: 20px 0; /* Reduced padding for mobile */
+  margin-top: 120px; /* Add top margin to create space between header and about section */
+  text-align: center; /* Center align content on mobile */
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .about-content {
-  display: flex;
-  flex-direction: row; /* Display content side by side */
+  flex-direction: column; /* Stack content vertically on mobile */
   align-items: center;
-  justify-content: center;
 }
 
 .profile-image-container {
-  flex: 1; /* Adjust the width of the image container as needed */
-  text-align: center;
-  margin-right: 20px; /* Add spacing between the image and text */
+  margin-bottom: 20px; /* Add spacing between image and text on mobile */
 }
 
 .profile-image {
@@ -33,45 +29,35 @@
 }
 
 .profile-image:hover {
-  transform: scale(1.1); /* Add a slight zoom effect on hover */
+  transform: scale(1.1); /* Zoom effect on hover still applies */
 }
 
 .about-text {
-  flex: 2; /* Adjust the width of the text container as needed */
-  text-align: left; /* Align text to the left */
+  text-align: center; /* Center align text on mobile */
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 28px; /* Slightly reduce font size on mobile for better readability */
   color: #333;
   margin-bottom: 10px;
 }
 
 .paragraph {
-  font-size: 18px;
+  font-size: 16px; /* Reduce font size for paragraphs on mobile */
   color: #555;
   line-height: 1.5;
 }
 
 /* Smooth fade-in animation for the 'About' section */
-.about-enter {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.about-enter-active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.about-exit {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
+.about-enter,
 .about-exit-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-enter-active,
+.about-exit {
   opacity: 0;
   transform: translateY(20px);
 }

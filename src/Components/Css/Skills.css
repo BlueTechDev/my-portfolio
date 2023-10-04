@@ -1,0 +1,56 @@
+/* Skills.css */
+
+.skills {
+  background-color: #f7f7f7;
+  padding: 20px 0; /* Reduced padding for better mobile layout */
+  text-align: center; /* Center align text on mobile */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 28px; /* Reduce font size for better mobile readability */
+  color: #333;
+  margin-bottom: 20px; /* Reduce margin for better mobile spacing */
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  opacity: 1;
+}
+
+.skill i {
+  font-size: 48px;
+  color: #007BFF;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill p {
+  font-size: 16px; /* Reduce font size for better mobile readability */
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Fade-in animation for the section title and skills */
+.skills-enter-active,
+.skill-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add a slight scale-up effect on icon hover */
+.skill i:hover {
+  transform: scale(1.1);
+}
