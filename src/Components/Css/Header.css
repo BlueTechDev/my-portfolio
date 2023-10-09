@@ -8,6 +8,7 @@ header {
   width: 100%;
   background-color: #333;
   padding: 20px;
+  padding-bottom: 20px;
   z-index: 1000;
   display: flex;
   justify-content: space-between; /* Horizontally align items */
