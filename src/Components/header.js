@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-import './Css/header.css'; // Correct import path
+import './Css/header.css'; // Correct import path if the filename is "header.css"
 
 function Header() {
   return (
