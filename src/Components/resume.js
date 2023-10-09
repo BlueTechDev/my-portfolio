@@ -29,7 +29,7 @@ function Resume() {
         <h2 className="section-title">Resume</h2>
         <div className="resume-content">
           <p>Here you can download my resume in CSV format:</p>
-          <button onClick={downloadResume}>Download Resume</button>
+          <button className="download-button" onClick={downloadResume}>Download Resume</button>
         </div>
       </div>
     </section>

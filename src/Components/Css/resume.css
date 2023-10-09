@@ -1,38 +1,40 @@
 /* Resume.css */
 
 .resume {
-    background-color: #f7f7f7;
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .section-title {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .resume-content {
-    text-align: center;
-  }
-  
-  button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.resume-content {
+  text-align: center;
+}
+
+.download-button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 20px 40px; /* Increased padding for a prominent button */
+  font-size: 24px; /* Larger font size */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px; /* Add some spacing between the title and the button */
+  text-decoration: none; /* Remove underlines */
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

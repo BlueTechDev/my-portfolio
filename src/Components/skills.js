@@ -1,7 +1,7 @@
 import React from "react";
 import "./Css/skills.css"; // Import the CSS file for styling
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs, faReact, faPython, faNodeJs } from "@fortawesome/free-brands-svg-icons";
 
 function Skills() {
   // Define your skills as an array of objects with a name and icon (Font Awesome icons)
@@ -10,6 +10,8 @@ function Skills() {
     { name: "CSS3", icon: faCss3 },
     { name: "JavaScript", icon: faJs },
     { name: "React", icon: faReact },
+    { name: "Python", icon: faPython},
+    { name: "JSX", icon: faNodeJs},
     // Add more skills as needed
   ];
 
